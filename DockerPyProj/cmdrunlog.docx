@@ -1,6 +1,19 @@
-<pre><font color="#8AE234"><b>rahulsaha@ubuntu</b></font>:<font color="#729FCF"><b>~/pythonCode/DockerPyProj</b></font>$ sudo -s
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 6.0.7.3 (Linux)"/>
+	<meta name="created" content="00:00:00"/>
+	<meta name="changed" content="2020-09-20T00:02:50.657502270"/>
+	<style type="text/css">
+		pre.cjk { font-family: "DejaVu Sans Mono", monospace }
+	</style>
+</head>
+<body lang="en-US" dir="ltr">
+<pre class="western"><font color="#8ae234"><b>rahulsaha@ubuntu</b></font>:<font color="#729fcf"><b>~/pythonCode/DockerPyProj</b></font>$ sudo -s
 [sudo] password for rahulsaha:
-<font color="#8AE234"><b>root@ubuntu</b></font>:<font color="#729FCF"><b>~/pythonCode/DockerPyProj</b></font># docker build -t mytestimage .
+<font color="#8ae234"><b>root@ubuntu</b></font>:<font color="#729fcf"><b>~/pythonCode/DockerPyProj</b></font># docker build -t mytestimage .
 Sending build context to Docker daemon  4.608kB
 Step 1/6 : FROM python:3.8
 3.8: Pulling from library/python
@@ -31,7 +44,7 @@ Building wheels for collected packages: numpy
   Building wheel for numpy (setup.py): still running...
   Building wheel for numpy (setup.py): still running...
   Building wheel for numpy (setup.py): still running...
-  Building wheel for numpy (setup.py): finished with status &apos;done&apos;
+  Building wheel for numpy (setup.py): finished with status &amp;apos;done&amp;apos;
   Created wheel for numpy: filename=numpy-1.16.6-cp38-cp38-linux_x86_64.whl size=13807057 sha256=3d5925769ecec1a6ebf3180793ac73d40aa2388c4ae8223a3d721214a0bba1ac
   Stored in directory: /root/.cache/pip/wheels/22/6f/a6/069db0c95f9bb6b73e07da014891c58460fef1eb84f49576f0
 Successfully built numpy
@@ -47,8 +60,8 @@ Removing intermediate container b04056026cc0
  ---&gt; 43d7ac16a494
 Successfully built 43d7ac16a494
 Successfully tagged mytestimage:latest
-<font color="#8AE234"><b>root@ubuntu</b></font>:<font color="#729FCF"><b>~/pythonCode/DockerPyProj</b></font># ^C
-<font color="#8AE234"><b>root@ubuntu</b></font>:<font color="#729FCF"><b>~/pythonCode/DockerPyProj</b></font># docker run mytestimage
+<font color="#8ae234"><b>root@ubuntu</b></font>:<font color="#729fcf"><b>~/pythonCode/DockerPyProj</b></font># docker run mytestimage
 3
-9
-</pre>
+9</pre>
+</body>
+</html>
